@@ -1,0 +1,34 @@
+# Custom Hyperparameters for YOLOv5 training
+lr0: 0.01          # Initial learning rate
+lrf: 0.01          # Final learning rate (OneCycleLR)
+momentum: 0.937    # Momentum
+weight_decay: 0.0005  # Weight decay
+warmup_epochs: 3.0 # Warmup epochs
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+box: 0.05          # Box loss gain
+cls: 0.5           # Classification loss gain
+cls_pw: 1.0        # Class positive weight
+obj: 1.0           # Object loss gain
+obj_pw: 1.0
+fl_gamma: 1.5      # Focal loss gamma (prioritizes hard examples)
+
+# Augmentation Parameters
+hsv_h: 0.015       # HSV hue
+hsv_s: 0.5         # Reduced HSV saturation
+hsv_v: 0.4         # HSV value
+degrees: 5.0       # Slight rotation for robustness
+translate: 0.2     # Increased translation
+scale: 0.7         # Larger image scaling
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 1.0        # Keep mosaic augmentation
+mixup: 0.2         # Enable mixup augmentation
+copy_paste: 0.0
+
+# Anchor and IoU Threshold
+anchor_t: 4.0      # Anchor-multiple threshold
+iou_t: 0.2         # IoU training threshold
+

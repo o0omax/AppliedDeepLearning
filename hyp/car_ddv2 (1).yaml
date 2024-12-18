@@ -1,0 +1,13 @@
+# defect_detection.yaml
+
+# Paths to the dataset directories
+path: /content/drive/MyDrive/CarDD_V2
+
+# Class labels for the dataset
+names:
+  0: crack
+  1: dent
+
+# Subdirectory structure
+train: train  # Subfolder for training data
+val: valid    # Subfolder for validation data
