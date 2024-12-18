@@ -1,0 +1,12 @@
+
+{
+    "input_file": "/path/to/input.json",
+    "output_file": "/path/to/output.json",
+    "target_categories": ["dent", "crack"],
+    "images_dir": "/path/to/images_dir",
+    "output_images_dir": "/path/to/output_images_dir",
+    "base_path": "/base/path",
+    "sets": ["filtered_train2017", "filtered_val2017"],
+    "output_sets": ["yolo_train", "yolo_val"],
+    "valid_category_ids": { "1": 0, "3": 1 }
+}
