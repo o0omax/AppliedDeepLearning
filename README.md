@@ -17,7 +17,31 @@
 
 ![Results Chart](results.png)
 
+## Deliverables:
 
+a) Error Metric
+The primary error metric used is **mAP_50 (Mean Average Precision at IoU=0.50)**, which is a common metric in object detection tasks.
+
+b) Target Metric
+The target for **mAP_50** was to achieve or exceed **0.617**, based on the benchmark metric.
+
+c) Achieved Value
+The project achieved an **mAP_50 of 0.6075**, which is slightly below the benchmark. This indicates room for improvement, potentially through increased compute resources or hyperparameter tuning (e.g., increasing batch size).
+
+d) Time Spent on Tasks
+
+
+| **Task**                                  | **Time Spent (Hours)** |
+|-------------------------------------------|-------------------------|
+| Research on scene detection               | 15                      |
+| Research on object detection              | 10                      |
+| Research on transfer learning             | 1                       |
+| Setting up the environment                | 6                       |
+| Data preprocessing (filtering annotations)| 10.5                    |
+| Testing preprocessing results             | 2                       |
+| Testing different Hyperparameters         | 5                       |
+| Writing Training script		            | 6.5                     |
+| **Total Time Spent**                      | **56**                  |
 
 ## 0. Setup:
 a) **Environment Setup**
